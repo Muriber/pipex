@@ -5,4 +5,13 @@ Este proyecto trata de simular el funcionamiento del comando *pipe* "**|**". Par
 ./pipex archivo1 comando1 comando2 archivo2
 ~~~
 
-Este proyecto pretende aplicar el uso de *procesos* en **C** para replicar el funcionamiento de la instrucción **pipe**
+Este proyecto pretende aplicar el uso de *procesos* junto con la instrucción *pipe* en **C**, con el objeto de replicar el funcionamiento de la instrucción **pipe**. Para ello se utilizan funciones como:
+~~~
+dup()
+execve()
+fork()
+pipe()
+wait()
+waitpid()
+~~~
+
